@@ -3,7 +3,7 @@ name: Deploy to Heroku
 on:
   push:
     branches:
-      - main   # la acción se ejecuta cuando hagas push a main
+      - main   
 
 jobs:
   build:
